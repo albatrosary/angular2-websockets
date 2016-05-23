@@ -29,6 +29,7 @@ System.config({
     '@angular/common': { main: 'index' },
     '@angular/compiler': { main: 'index' },
     '@angular/http': { main: 'index' },
+    '@angular/router-deprecated': { main: 'index' },
     '@angular/router': { main: 'index' },
     '@angular/platform-browser': { main: 'index' },
     '@angular/platform-browser-dynamic': { main: 'index' },
