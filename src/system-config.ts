@@ -36,7 +36,6 @@ System.config({
 
     // Thirdparty barrels.
     'rxjs': { main: 'Rx' },
-    'angular2-websocket': { main: 'angular2-websocket' },
 
     // App specific barrels.
     'app': { main: 'index' },
