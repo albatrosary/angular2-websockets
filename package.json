@@ -4,7 +4,7 @@
   "license": "MIT",
   "angular-cli": {},
   "scripts": {
-    "start": "concurrently \"ng server --proxy http://localhost:8021\" \"node app.js\"",
+    "start": "concurrently \"ng server --proxy http://localhost:8021\" \"node app.js\" \"node sockets-server.js\"",
     "postinstall": "typings install",
     "lint": "tslint \"src/**/*.ts\"",
     "format": "clang-format -i -style=file --glob=src/**/*.ts",
